@@ -1,0 +1,694 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "LockPosition": true,
+            "RelativeFilename": "BG_MAIN.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PIN_100",
+            "X": 10,
+            "Y": 10,
+            "Width": 16,
+            "Height": 30,
+            "Visible": false,
+            "LockPosition": true,
+            "RelativeFilename": "output-onlinepngtools.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PIN_75",
+            "X": 10,
+            "Y": 10,
+            "Width": 16,
+            "Height": 30,
+            "Visible": false,
+            "LockPosition": true,
+            "RelativeFilename": "output-onlinepngtools_80.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PIN_50",
+            "X": 10,
+            "Y": 10,
+            "Width": 16,
+            "Height": 30,
+            "Visible": false,
+            "LockPosition": true,
+            "RelativeFilename": "output-onlinepngtools_60.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PIN_25",
+            "X": 10,
+            "Y": 10,
+            "Width": 16,
+            "Height": 30,
+            "Visible": false,
+            "LockPosition": true,
+            "RelativeFilename": "output-onlinepngtools_25.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PIN_0",
+            "X": 10,
+            "Y": 10,
+            "Width": 16,
+            "Height": 30,
+            "LockPosition": true,
+            "RelativeFilename": "output-onlinepngtools_0.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "button_control",
+            "X": 40,
+            "Y": 95,
+            "Width": 240,
+            "Height": 50,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_BIV9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "button_auto",
+            "X": 40,
+            "Y": 168,
+            "Width": 240,
+            "Height": 50,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_9YB1",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "select_mode",
+            "X": 58,
+            "Y": 25,
+            "Width": 205,
+            "Height": 30,
+            "LockPosition": true,
+            "TextId": "__SingleUse_RGNJ",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_control"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "CONTROL_MODE"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CONTROL_MODE",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "LockPosition": true,
+            "RelativeFilename": "BG_MAIN.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Back_seclect_mode",
+            "Y": 202,
+            "Width": 42,
+            "Height": 38,
+            "LockPosition": true,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "X": -3,
+                "Y": -3,
+                "IconReleased": "__generated\\icon_theme_images_av_skip_previous_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 42,
+                "Height": 38,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "Motor",
+            "X": 10,
+            "Y": 83,
+            "Width": 300,
+            "Height": 18,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Blue": 8
+            },
+            "Direction": "Right",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 1024,
+            "ProgressInitialValue": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MODE_control",
+            "X": 85,
+            "Y": 12,
+            "Width": 151,
+            "Height": 24,
+            "LockPosition": true,
+            "TextId": "__SingleUse_K0EU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "motor_val",
+            "X": 10,
+            "Y": 50,
+            "Width": 145,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_4E5B",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DDQP",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "bldc",
+            "X": 10,
+            "Y": 147,
+            "Width": 300,
+            "Height": 18,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255
+            },
+            "Direction": "Right",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bldc_val",
+            "X": 10,
+            "Y": 108,
+            "Width": 157,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_43W6",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_O38U",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "pressure",
+            "X": 75,
+            "Y": 189,
+            "Width": 170,
+            "Height": 26,
+            "LockPosition": true,
+            "TextId": "__SingleUse_M810",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KG48",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Next_parameter",
+            "X": 276,
+            "Y": 202,
+            "Width": 44,
+            "Height": 38,
+            "LockPosition": true,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "Y": -5,
+                "IconReleased": "__generated\\icon_theme_images_av_skip_next_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 44,
+                "Height": 38,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back_seclect_mode"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Next_parameter"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "CONTROL_MODE_2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CONTROL_MODE_2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "LockPosition": true,
+            "RelativeFilename": "BG_MAIN.png"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "J1_X_val",
+            "X": 10,
+            "Y": 56,
+            "Width": 300,
+            "Height": 10,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "J1_Y_val",
+            "X": 10,
+            "Y": 97,
+            "Width": 300,
+            "Height": 10,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "J2_X_val",
+            "X": 10,
+            "Y": 146,
+            "Width": 300,
+            "Height": 10,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "J2_Y_val",
+            "X": 10,
+            "Y": 190,
+            "Width": 300,
+            "Height": 10,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "VR_val",
+            "X": 10,
+            "Y": 230,
+            "Width": 300,
+            "Height": 10,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 1024
+          },
+          {
+            "Type": "TextArea",
+            "Name": "J1_X",
+            "X": 229,
+            "Y": 32,
+            "Width": 81,
+            "Height": 18,
+            "LockPosition": true,
+            "TextId": "__SingleUse_C2IY",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_AFSX",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "J1_Y",
+            "X": 229,
+            "Y": 73,
+            "Width": 81,
+            "Height": 18,
+            "LockPosition": true,
+            "TextId": "__SingleUse_AA6Z",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NSLA",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "J2_X",
+            "X": 229,
+            "Y": 120,
+            "Width": 81,
+            "Height": 18,
+            "LockPosition": true,
+            "TextId": "__SingleUse_N6R6",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_AL0J",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "J2_Y",
+            "X": 229,
+            "Y": 166,
+            "Width": 81,
+            "Height": 18,
+            "LockPosition": true,
+            "TextId": "__SingleUse_9NQ0",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_QKVM",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VR",
+            "X": 241,
+            "Y": 206,
+            "Width": 69,
+            "Height": 18,
+            "LockPosition": true,
+            "TextId": "__SingleUse_GYAT",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q7TE",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 16,
+            "Y": 21,
+            "Width": 153,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_TK96",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Back",
+            "X": 283,
+            "Y": 1,
+            "Width": 37,
+            "Height": 31,
+            "LockPosition": true,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "X": -5,
+                "Y": -8,
+                "IconReleased": "__generated\\icon_theme_images_av_skip_previous_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 37,
+                "Height": 31,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "CONTROL_MODE"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F407/417",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../GUI_TouchGFX.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.23.2"
+}

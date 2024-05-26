@@ -1,0 +1,9 @@
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../TouchGFX/gui/include/gui/control_mode_2_screen/CONTROL_MODE_2View.hpp:11:13:CONTROL_MODE_2View::~CONTROL_MODE_2View()	16	static
+../TouchGFX/gui/include/gui/control_mode_2_screen/CONTROL_MODE_2View.hpp:11:13:virtual CONTROL_MODE_2View::~CONTROL_MODE_2View()	16	static
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2View.cpp:3:1:CONTROL_MODE_2View::CONTROL_MODE_2View()	16	static
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2View.cpp:8:6:virtual void CONTROL_MODE_2View::setupScreen()	16	static
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2View.cpp:13:6:virtual void CONTROL_MODE_2View::tearDownScreen()	16	static

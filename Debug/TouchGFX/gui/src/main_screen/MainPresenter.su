@@ -1,0 +1,17 @@
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	16	static
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:52:5:ModelListener::ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:54:13:ModelListener::~ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:54:13:virtual ModelListener::~ModelListener()	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:64:18:virtual void ModelListener::setPin(bool)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:65:18:virtual void ModelListener::setADC(int)	16	static
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:66:18:virtual void ModelListener::changePower(int)	16	static
+../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:MainPresenter::~MainPresenter()	16	static
+../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:virtual MainPresenter::~MainPresenter()	16	static
+../TouchGFX/gui/src/main_screen/MainPresenter.cpp:4:1:MainPresenter::MainPresenter(MainView&)	16	static
+../TouchGFX/gui/src/main_screen/MainPresenter.cpp:9:6:virtual void MainPresenter::activate()	16	static
+../TouchGFX/gui/src/main_screen/MainPresenter.cpp:13:6:virtual void MainPresenter::deactivate()	16	static
+../TouchGFX/gui/src/main_screen/MainPresenter.cpp:22:6:virtual void MainPresenter::changePower(int)	16	static

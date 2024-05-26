@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="TextStart" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Start</Translation>
+      </Text>
+      <Text Id="TextStop" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Stop</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_TK96" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">PARAMETER of Tx</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q7TE" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_GYAT" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">VR = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QKVM" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_9NQ0" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">J2_Y = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_AL0J" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_N6R6" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">J2_X = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NSLA" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_AA6Z" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">J1_Y = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_AFSX" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_C2IY" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">J1_X = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KG48" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_M810" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Pressure = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_O38U" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_43W6" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">BLDC_Speed = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_DDQP" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">0000</Translation>
+      </Text>
+      <Text Id="__SingleUse_4E5B" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">MotorSpeed = &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_K0EU" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">CONTROL MODE</Translation>
+      </Text>
+      <Text Id="__SingleUse_RGNJ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">SELECT MODE</Translation>
+      </Text>
+      <Text Id="__SingleUse_9YB1" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">AUTO</Translation>
+      </Text>
+      <Text Id="__SingleUse_BIV9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">CONTROL</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="Asap-Regular.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" WildcardCharacterRanges="0x20-0x7e" />
+    <Typography Id="Typography_00" Font="times.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="times.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="times.ttf" Size="26" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_03" Font="times.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

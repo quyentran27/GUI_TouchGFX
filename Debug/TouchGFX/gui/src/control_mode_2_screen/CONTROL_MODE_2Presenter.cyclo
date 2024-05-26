@@ -1,0 +1,16 @@
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:52:5:ModelListener::ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:54:13:ModelListener::~ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:54:13:virtual ModelListener::~ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:64:18:virtual void ModelListener::setPin(bool)	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:65:18:virtual void ModelListener::setADC(int)	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:66:18:virtual void ModelListener::changePower(int)	1
+../TouchGFX/gui/include/gui/control_mode_2_screen/CONTROL_MODE_2Presenter.hpp:28:13:CONTROL_MODE_2Presenter::~CONTROL_MODE_2Presenter()	1
+../TouchGFX/gui/include/gui/control_mode_2_screen/CONTROL_MODE_2Presenter.hpp:28:13:virtual CONTROL_MODE_2Presenter::~CONTROL_MODE_2Presenter()	1
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2Presenter.cpp:4:1:CONTROL_MODE_2Presenter::CONTROL_MODE_2Presenter(CONTROL_MODE_2View&)	1
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2Presenter.cpp:10:6:virtual void CONTROL_MODE_2Presenter::activate()	1
+../TouchGFX/gui/src/control_mode_2_screen/CONTROL_MODE_2Presenter.cpp:15:6:virtual void CONTROL_MODE_2Presenter::deactivate()	1
