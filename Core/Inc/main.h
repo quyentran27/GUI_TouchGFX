@@ -63,6 +63,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ADC_Pin_Pin GPIO_PIN_0
+#define ADC_Pin_GPIO_Port GPIOC
+#define ADC_VR_ESC_Pin GPIO_PIN_1
+#define ADC_VR_ESC_GPIO_Port GPIOC
+#define JOY1_X_Pin GPIO_PIN_1
+#define JOY1_X_GPIO_Port GPIOA
+#define JOY1_Y_Pin GPIO_PIN_2
+#define JOY1_Y_GPIO_Port GPIOA
+#define JOY2_X_Pin GPIO_PIN_3
+#define JOY2_X_GPIO_Port GPIOA
+#define JOY2_Y_Pin GPIO_PIN_4
+#define JOY2_Y_GPIO_Port GPIOA
 #define DISPL_SCK_Pin GPIO_PIN_5
 #define DISPL_SCK_GPIO_Port GPIOA
 #define TOUCH_MISO_Pin GPIO_PIN_6
@@ -80,8 +92,40 @@ void Error_Handler(void);
 #define TOUCH_CS_GPIO_Port GPIOB
 #define DISPL_DC_Pin GPIO_PIN_2
 #define DISPL_DC_GPIO_Port GPIOB
+#define RF_SCK_Pin GPIO_PIN_10
+#define RF_SCK_GPIO_Port GPIOB
+#define RF_CSN_Pin GPIO_PIN_12
+#define RF_CSN_GPIO_Port GPIOB
+#define RF_CE_Pin GPIO_PIN_13
+#define RF_CE_GPIO_Port GPIOB
+#define RF_MISO_Pin GPIO_PIN_14
+#define RF_MISO_GPIO_Port GPIOB
+#define RF_MOSI_Pin GPIO_PIN_15
+#define RF_MOSI_GPIO_Port GPIOB
+#define LED1_Pin GPIO_PIN_12
+#define LED1_GPIO_Port GPIOD
+#define LED2_Pin GPIO_PIN_13
+#define LED2_GPIO_Port GPIOD
+#define LED3_Pin GPIO_PIN_14
+#define LED3_GPIO_Port GPIOD
+#define LED4_Pin GPIO_PIN_15
+#define LED4_GPIO_Port GPIOD
 #define DISPL_LED_Pin GPIO_PIN_7
 #define DISPL_LED_GPIO_Port GPIOC
+#define USB_DM_Pin GPIO_PIN_11
+#define USB_DM_GPIO_Port GPIOA
+#define USB_DP_Pin GPIO_PIN_12
+#define USB_DP_GPIO_Port GPIOA
+#define SD_CLK_Pin GPIO_PIN_10
+#define SD_CLK_GPIO_Port GPIOC
+#define SD_MISO_Pin GPIO_PIN_11
+#define SD_MISO_GPIO_Port GPIOC
+#define SD_MOSI_Pin GPIO_PIN_12
+#define SD_MOSI_GPIO_Port GPIOC
+#define SD_CS_Pin GPIO_PIN_0
+#define SD_CS_GPIO_Port GPIOD
+#define Audio_PWM_Pin GPIO_PIN_6
+#define Audio_PWM_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
